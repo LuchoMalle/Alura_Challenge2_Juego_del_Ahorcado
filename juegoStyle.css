@@ -1,0 +1,117 @@
+/* CSS JUEGO */
+
+.containerJuego{
+    height: 450px;
+}
+
+.containerJuego .dibujoAhorcado{
+    height: 300px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+#palabraOculta{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    /* border: 1px solid red; */
+}
+
+#palabraOculta .letter{
+    height: 50px;
+    margin: 10px 0 0 0;
+    /* border: 1px solid red; */
+    font-size: 2em;
+    text-align: center;
+}
+
+.letter::after{
+    content: ' ';
+    display: block;
+    width: 40px;
+    height: 4px;
+    background-color: black;
+    min-width: 12px;
+}
+
+#palabraOculta .hidden{
+    color: transparent;
+    user-select: none;
+}
+
+#letrasUsadas{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+#letrasusadas .letterUsed{
+    height: 50px;
+    margin: 10px 0 0 0;
+    /* border: 1px solid red; */
+    font-size: 2em;
+    text-align: center;
+}
+
+/* FIN CSS JUEGO */
+
+/* BOTONES CSS */
+
+.botonesJuego{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.botonesJuego button{
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #FFFBDB;
+    border: 2px solid #412050;
+    font-size: 1em;
+    font-family: 'Inter';
+}
+
+#botonNuevoJuego:hover, #botonDesistir:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-skip: none;
+}
+
+#botonNuevoJuego:active, #botonDesistir:active{
+    background-color: #412050;
+    color: #FFFBDB;
+}
+
+/* FIN BOTONES CSS */
+
+/* MENSAJES CSS */
+
+#mensajeGanaste{
+    height: 100px;
+    width: 100px;
+    left: 70%;
+    top: 20%;
+    color: green;
+    position: absolute;
+    font-size: 1.8em;
+}
+
+#mensajePerdiste{
+    height: 100px;
+    width: 100px;
+    left: 70%;
+    top: 20%;
+    color: red;
+    position: absolute;
+    font-size: 1.8em;
+}
+
+/* FIN MENSAJES CSS */

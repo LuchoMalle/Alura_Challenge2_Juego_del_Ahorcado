@@ -1,0 +1,57 @@
+.containerAgregarPalabra{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TEXTAREA CSS */
+
+.containerAgregarPalabra textarea{
+    height: 425px;
+    width: 400px;
+    margin: 0 0 25px 0;
+    padding: 20px;
+    background-color: #FFFBDB;
+    border: none;
+    font-size: 1.8em;
+    overflow: auto;
+    outline: none;
+    resize: none;
+}
+
+/* FIN TEXTAREA CSS */
+
+/* BOTONES CSS */
+
+.botonesAgregarPalabra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.botonesAgregarPalabra button{
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #FFFBDB;
+    border: 2px solid #412050;
+    font-size: 1em;
+    font-family: 'Inter';
+}
+
+#botonGuardarPalabra:hover, #botonVolverAlMenu:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-skip: none;
+}
+
+#botonGuardarPalabra:active, #botonVolverAlMenu:active{
+    background-color: #412050;
+    color: #FFFBDB;
+}
+
+/* FIN BOTONES CSS */

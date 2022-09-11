@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFBDB;
+    font-family: 'Inter';
+}
+
+.encabezado{
+    margin: 0;
+}
+
+.encabezado svg{
+    margin: 20px 0;
+    filter: drop-shadow( 2px 2px 2px rgba(0, 0, 3, .7));
+}
+
+.ocultar{
+    display: none;
+}
+
+footer{
+    margin: 20px 0 0 0;
+    height: 50px;
+    width: 100%;
+}
+
+footer h2{
+    color: #AA4465;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0px auto;
+}
+
+footer h2 > p{
+    color: #462255;
+    display: inline;
+}
