@@ -49,10 +49,9 @@
     gap: 10px;
 }
 
-#letrasusadas .letterUsed{
+.letterUsed{
     height: 50px;
     margin: 10px 0 0 0;
-    /* border: 1px solid red; */
     font-size: 2em;
     text-align: center;
 }
@@ -115,3 +114,23 @@
 }
 
 /* FIN MENSAJES CSS */
+
+@media only screen and (max-width: 450px) {
+    .botonesJuego{
+        gap: 10px;
+    }
+    .botonesJuego button{
+        margin: 0 15px;
+    }
+    .letterUsed{
+        font-size: 5vw;
+    }
+
+    #palabraOculta .letter{
+        font-size: 3vh;
+    }
+    .letter::after{
+        width: 8vw;
+        height: 0.5vh;
+    }
+}

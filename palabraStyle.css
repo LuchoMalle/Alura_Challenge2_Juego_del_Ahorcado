@@ -1,10 +1,10 @@
-.containerAgregarPalabra{
+/* .containerAgregarPalabra{
     height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
 /* TEXTAREA CSS */
 
@@ -55,3 +55,15 @@
 }
 
 /* FIN BOTONES CSS */
+
+@media only screen and (max-width: 450px) {
+    .botonesAgregarPalabra{
+        gap: 10px;
+    }
+    .botonesAgregarPalabra button{
+        margin: 0 15px;
+    }
+    .containerAgregarPalabra textarea{
+        font-size: 6vw;
+    }
+}

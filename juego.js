@@ -23,6 +23,7 @@ function nuevoJuego(){
     crearPalabraOculta(generarPalabraRandom());
     mostrarJuego();
     document.addEventListener('keydown', adivinarPalabra);
+    contenedorPalabra.focus();
 }
 
 function crearMuñeco(){
