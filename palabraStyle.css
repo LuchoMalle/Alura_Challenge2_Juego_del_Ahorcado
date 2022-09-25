@@ -8,10 +8,15 @@
 
 /* TEXTAREA CSS */
 
+.containerTexto{
+    height: 425px;
+    width: 400px;
+    margin: 0 auto;
+}
+
 .containerAgregarPalabra textarea{
     height: 425px;
     width: 400px;
-    margin: 0 0 25px 0;
     padding: 20px;
     background-color: #FFFBDB;
     border: none;
